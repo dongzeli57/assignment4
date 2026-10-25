@@ -14,8 +14,8 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
-DATA_DIR = Path(__file__).parent / 'data'
-TEAM_NAME = 'Fengjun Jiang'
+DATA_DIR = Path('.')
+TEAM_NAME = 'Ze'
 DATA_PERIOD = '5 Sep - 4 Oct 2026 (30 days of Wikipedia pageviews)'
 REFRESH_LINE = ('Refresh: daily at 06:00 UTC in production, when Wikimedia publishes the '
                 'previous day; the allocation decision is reviewed every Monday.')
